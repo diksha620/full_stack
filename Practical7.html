@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-7</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .container {
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+        }
+
+        .container div {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 8vh;
+            color: white;
+
+        }
+
+        h3 {
+            font-size: 5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #header {
+            margin: 10px;
+            height: 12vh;
+            background-color: gray;
+        }
+
+        #banner {
+
+            margin: 10px 10px 5vh 10px;
+            height: 90vh;
+            background-color: lightskyblue;
+        }
+
+        #section1,
+        #section2,
+        #section3 {
+            
+
+            display: flex;
+            margin: 4vh;
+            justify-content: space-evenly;
+        }
+        #section1 div {
+            width: 21vw;
+            height: 20vw;
+            border-radius: 50%;
+            background-color: goldenrod;
+        }
+
+
+        #main {
+            height: 85vh;
+            width: 46vw;
+            background-color: purple;
+        }
+
+        #article {
+            height: 85vh;
+            width: 46vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            align-items: center;
+
+        }
+        #article div{
+            height: 27vh;
+            width: 46vw;
+            background-color: limegreen;
+        }
+
+        #section3 div {
+
+            width: 21vw;
+            height: 20vw;
+
+            background-color: red;
+        }
+
+
+
+        #footer {
+            margin:  4vh 10px 10px 10px;
+            height: 12vh;
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="header">Header</div>
+
+        <div id="banner">
+            Banner
+        </div>
+        <h3>Section-1</h3>
+        <section id="section1">
+
+
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <h3>Section-2</h3>
+        <section id="section2">
+
+            <div id="main">Main Content</div>
+            <div id="article">
+                <div>Article-1</div>
+                <div>Article-2</div>
+                <div>Article-3</div>
+            </div>
+        </section>
+
+        <h3>Section-3</h3>
+        <section id="section3">
+
+
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <h3>Section-4</h3>
+        <section>
+        <div id="footer">Footer</div>
+        </section>
+    </div>
+
+</body>
+
+</html>
