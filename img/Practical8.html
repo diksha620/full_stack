@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-8</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #nav
+        {
+            position: fixed;
+            top: 0px;
+            z-index: 3;
+            margin: 10px 10% ;
+            border-radius: 10px;
+            width: 80%;
+            height: 50px; 
+            display: flex;
+            background-color: lightgrey;
+            justify-content: center; 
+            align-items: center;
+            
+
+        }
+        div ul li {
+            display: inline-block;
+            /* float: left; */
+            list-style: none; 
+            
+                     
+            
+        }
+        div ul li a{
+            text-decoration: none;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: black;
+            font-size: x-large;
+            padding: 10px 50px;
+        }
+        div ul li a:hover{
+            background-color: royalblue;
+            color: white;
+        }
+        #b-img{
+            width: 100vw;
+           height: 100vh;
+           background-image: url();
+        }
+        #b-img h1{
+            padding-top: 70px;
+           color: white;
+           font-size: 10vh;
+        }
+        .heading{
+            margin-top: 7vw;
+            text-align: center;
+            font-size: 7vh;
+            margin-bottom: 5vh;
+
+        }
+        #team {
+            margin-left: 10%;
+            width: 80%;
+             display: flex;
+            justify-content: space-evenly;
+        }
+        .t img{
+           float: left;
+            
+            border-radius: 50%;
+        }
+        #section {
+            
+
+            display: flex;
+            margin: 1vh;
+            justify-content: space-evenly;
+        }
+        #main {
+            padding: 2.5vh; 
+            height: 70vh;
+            width: 46vw;
+            background-color: lightgreen;
+            font-size: large;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        #article {
+            height: 75vh;
+            width: 47vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+            align-items: center;
+
+        }
+        #article div{
+            height: 24vh;
+            width: 47vw;
+            background-color: limegreen;
+            text-align: center;
+        }
+        #a1{
+            background-image: url(img/p1.jpg);
+            background-size: 100%;
+        }
+        #a2{
+            background-image: url(img/p2.jpeg);
+            background-size: 100%;
+        }
+        #a3{
+            background-image: url(img/p3.jpg);
+            background-size: 100% ;
+        }
+        #article div h1{
+            font-size: xx-large;
+        }
+        .box{
+            width: 300px;
+             height: 500px;
+             margin: 10px 10px;
+             background-color: white;
+             border:3px solid black;
+             border-radius: 10px;
+             float: left;
+             padding: 12px;
+        }
+        .box h3{
+           color: red;
+           text-align: center;
+           font-family: Arial, Helvetica, sans-serif;
+           margin-top: 10px;
+
+        }
+
+        .box img{
+            width: 90%;
+            border: 5px solid rebeccapurple;
+            margin: 10px;
+            border-radius: 10px;
+            height: 200px;
+            
+        }
+         .box p{
+            color:black;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            margin: 20px;
+            max-width: 280px;
+
+        }
+        .box a{
+            display: block;
+            background-color: red;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+        .box a:hover{
+            background-color: royalblue;
+        }
+        #tech{
+            display: flex;
+            justify-content: center;
+        }
+        #contact{
+            text-align: center;
+            height: 15vh;
+            background-color: rgb(223, 159, 248);
+        }
+    </style>
+</head>
+<body>
+    <a name="top"></a>
+    <div id="nav" >
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#about1">About Us</a>
+        </li>
+        <li>
+            <a href="#team1">Team</a>
+        </li>
+        <li>
+            <a href="#tech1">Technologies</a>
+        </li>
+        <li>
+            <a href="#contact1">Contact</a>
+        </li>
+    </ul>
+    </div>
+
+    <div id="b-img">
+        <h1>Practical-8</h1>
+    </div>
+    <a id="team1"></a>
+    
+    <h1 class="heading">Team Members</h1>
+    <div id="team">
+        
+        <div class="t"><img src="img/1.png" alt="member1"></div>
+        <div class="t"><img src="img/2.png" alt="member2"></div>
+        <div class="t"><img src="img/3.png" alt="member3"></div>
+        <div class="t"><img src="img/9.png" alt="member4"></div>
+    </div>
+    <a id="about1"></a>
+    <h1 class="heading">About Us</h1>
+    <section id="section">
+
+        <div id="main">
+            <h2>About Projects</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error tenetur nobis fugit quam distinctio placeat similique dolorem! 
+                Eveniet quidem obcaecati repudiandae modi earum minima excepturi at numquam, sit repellendus nisi saepe hic magnam in, cumque eos 
+                officiis! Laborum minus cum eaque illum reprehenderit dolorem, voluptatibus illo, doloremque adipisci ut velit facere ad necessitatibus numquam 
+                vrum nobis tempora nulla iure? Voluptatum dicta at inventore eveniet 
+                 enim amet culpa molestiae, obcaecati aperiam facere ut vero possimus saepe in illo excepturi harum id. Enim praesentium cumque obcaecati, eum
+                 inventore,
+                 hic quisquam eius officiis consequatur recusandae architecto provident impedit ipsa odio corrupti at? Alias, aut debitis maxime neque dolorum obcaecati.
+                <br>
+                <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi vero distinctio neque eligendi esse cumque quasi! Nam optio ipsa odit. Autem voluptates veritatis ratione illo suscipit? Ad, voluptatibus quam! Minus 
+            esse distinctio atis ve molestias quaerat cumque, nesciunt sapiente reprehenderit corporis eaque, fugit amet quia quos minus dolorum velit harum omnis ullam, beatae quibusdam consectetur tempore sunt. Quam laudantium voluptatem sapiente doloremque sit porro, voluptates asperiores quas ipsam molestiae placeat vel tenetur odio adipisci velit consectetur nisi dolor? Temporibus vel labore, eveniet beatae velit consequuntur laudantium perferendis doloremque quisquam voluptate voluptas, vitae explicabo voluptatibus sed nihil! Exercitationem maxime tenetur aliquam voluptatibus! Dolor quidem minima nemo iusto quaerat distinctio eos eligendi porro.</p>
+        </div>
+        <div id="article">
+            <div id="a1"><h1>Project-1</h1></div>
+            <div id="a2"><h1>Project-2</h1></div>
+            <div id="a3"><h1>Project-3</h1></div>
+        </div>
+    </section>
+    <!-- cards -->
+    <a id="tech1"></a>
+    <h1 class="heading">Technologies Used</h1>
+    <div id="tech">
+    <div class="box" >
+        <img src="img/html.png">
+        <h3>Introduction to HTML</h3>
+        <p>
+            HTML stands for Hyper Text Markup Language. It is used to design web pages using markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. 
+         </p>
+         <a href="https://the-pandey-ji.github.io/FullstackPractical/html_ps5.htm">Read More</a>
+    </div>
+    <div class="box" >
+        <img src="img/hero.jpg">
+        <h3>Introduction to CSS</h3>
+        <p>
+            Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable. CSS handles the look and feel part of a web page. Using CSS, you can control
+         </p>
+         <a href="https://the-pandey-ji.github.io/FullstackPractical/css_ps5.htm">Read More</a>
+    </div>
+   
+    <div class="box" >
+        <img src="img/jquery-featured-image.jpg">
+        <h3>Introduction to JavaScipt</h3>
+        <p>
+            JavaScript is a very powerful client-side scripting language. JavaScript is used mainly for enhancing the interaction of a user with the webpage. In other words, you can make your webpage more lively and interactive, with javascript
+         </p>
+         <a href="https://the-pandey-ji.github.io/FullstackPractical/js_ps5.htm">Read More</a>
+    </div>
+    <div class="box" >
+        <img src="img/introduction to bootstrap or what is bootstrap total coding gyan.jpg">
+        <h3>Introduction to Bootstrap</h3>
+        <p>
+            Bootstrap is a free and open-source framework for creating websites and web applications. It's the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. As the web evolves
+        </p>
+         
+         <a href="https://the-pandey-ji.github.io/FullstackPractical/bootstrap_ps5.htm">Read More</a>
+    </div>
+</div>
+<a id="contact1"></a>
+<h1 class="heading">Contact</h1>
+<div id="contact">
+    <br>
+    Website for Practical-8
+    <br>
+    <br>
+<a href="#top">Back to Top</a>
+</div>
+</body>
+</html>
