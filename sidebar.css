@@ -13,7 +13,8 @@
         align-items: center;
         position: fixed;
         top: 0;
-    
+        /* padding:10px 20px;
+        margin-bottom:50px; */
     }
 
     .header img
@@ -32,9 +33,10 @@
     {
         width: 100%;
         padding: 20px;
-        margin-top: 20px;
+        margin-top: 15px;
         float: right;
         transition: .7s;
+        margin-bottom: 15px;
     }
     .content img
     {
@@ -42,7 +44,8 @@
         max-width:700px ;
         display: block;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 50px;
+        margin-bottom: 15px;
     }
     .content p
     {
@@ -85,7 +88,7 @@
     }
     .sidebar ul li a:hover
     {
-      background-color: goldenrod;
+      background-color: green;
     }
     .social
     {
