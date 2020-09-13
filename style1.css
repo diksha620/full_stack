@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.sec{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: #0000CD;
+    font-family: cursive;
+    background-color: black;
+}
+.sec:hover{
+    color: darkmagenta;
+    background-color: #FFFC00;
+    transition: 0.7s;
+}
+footer{
+    width: 100%;
+    height:100vh;
+    background-color: #263238;
+}
+.sec-1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.about{
+    width: 40%;
+    height: 160px;
+    color: chartreuse;
+} 
+.about:hover
+{
+color: red;
+
+}
+.about h2
+{
+    font-size: 30px;
+    color:#8E24AA;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link1 h2
+{
+    font-size: 20px;
+    color:#8E24AA;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link2 h2
+{
+    font-size: 20px;
+    color:#8E24AA;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link3 h2
+{
+    font-size: 20px;
+    color:#8E24AA;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about h2:hover
+{
+color: green;
+transition: 0.5s;
+}
+.link1 h2:hover
+{
+color: green;
+transition: 0.5s;
+}
+.link2 h2:hover
+{
+color: green;
+transition: 0.5s;
+}
+.link3 h2:hover
+{
+color: green;
+transition: 0.5s;
+}
+.sec-1 ul
+{
+list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: teal;
+}
+a:hover
+{
+color: gold;
+transition: 0.5s;
+}
+span
+{
+    color: grey;
+}
+i
+{
+    color: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
