@@ -29,7 +29,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding: 30px 10px;
     
 }
 .about{
@@ -63,6 +63,7 @@ color: red;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .link2 h2
 {
@@ -110,6 +111,10 @@ transition: 0.5s;
 {
 list-style: none;
 }
+.sec-1 
+{
+    padding: 5px;
+}
 a
 {
     text-decoration: none;
@@ -122,17 +127,635 @@ transition: 0.5s;
 }
 span
 {
-    color: grey;
+    color: blue;
+}
+span:hover
+{
+    color: mediumvioletred;
 }
 i
 {
-    color: ;
+    color: gray;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
-
-
-
+.sec-2
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+.sec-2 h2{
+    color: gray;
+    font-size: 24px;
+    padding: 0;
+}
+.sec-2 h2:hover
+{
+    color: khaki;
+}
+.sec-2 a
+{
+    display: inline-block;
+    padding: 10px 15px;
+    color: honeydew;
+    background-color: darkmagenta;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+.sec-2 a:hover{
+    background-color: lightseagreen;
+}
+.sec-3
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.sec-3 ul
+{
+    list-style: none;
+    margin: 20px;
+}
+.sec-3 ul li
+{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    background-color: #424242;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.sec-3 ul li i
+{
+    color: white;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+}
+.sec-3 ul li:nth-child(1):hover
+{
+    background-color: #3b5999;
+}
+.sec-3 ul li:nth-child(2):hover
+{
+    background-color: #55acee;
+}
+.sec-3 ul li:nth-child(3):hover
+{
+    background-color: #dd4b39;
+}
+.sec-3 ul li:nth-child(4):hover
+{
+    background-color: #0077B5;
+}
+.sec-3 ul li:nth-child(5):hover
+{
+    background-color: #ea4ac9;
+}
+.sec-4 
+{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 30px;
+}
+.sec-4 p
+{
+    color: deeppink;
+    position: relative;
+}
+.sec-4 p::after
+{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    background-color: goldenrod;
+    transition: all .3s;
+}
+.sec-4 p:hover::after
+{
+    width: 100%;
+}
+hr
+{
+    opacity: 0.2;
+}
+@media (max-width:767px)
+{
+    .sec{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        color: #0000CD;
+        font-family: cursive;
+        background-color: black;
+    }
+    .sec:hover{
+        color: darkmagenta;
+        background-color: #FFFC00;
+        transition: 0.7s;
+    }
+    footer{
+        width: 100%;
+        height:100vh;
+        background-color: #263238;
+    }
+    .sec-1
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 30px 10px;
+        
+    }
+    .about{
+        width: 100%;
+        height: 160px;
+        color: chartreuse;
+        margin-bottom: 20px;
+    } 
+    .about:hover
+    {
+    color: red;
+    
+    }
+    .about h2
+    {
+        font-size: 30px;
+        color:#8E24AA;
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .link1 h2
+    {
+        font-size: 20px;
+        color:#8E24AA;
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .link2 h2
+    {
+        font-size: 20px;
+        color:#8E24AA;
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .link3 h2
+    {
+        font-size: 20px;
+        color:#8E24AA;
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about h2:hover
+    {
+    color: green;
+    transition: 0.5s;
+    }
+    .link1 h2:hover
+    {
+    color: green;
+    transition: 0.5s;
+    }
+    .link2 h2:hover
+    {
+    color: green;
+    transition: 0.5s;
+    }
+    .link3 h2:hover
+    {
+    color: green;
+    transition: 0.5s;
+    }
+    .sec-1 ul
+    {
+    list-style: none;
+    }
+    .sec-1 
+    {
+        padding: 5px;
+    }
+    a
+    {
+        text-decoration: none;
+        color: teal;
+    }
+    a:hover
+    {
+    color: gold;
+    transition: 0.5s;
+    }
+    span
+    {
+        color: blue;
+    }
+    span:hover
+    {
+        color: mediumvioletred;
+    }
+    i
+    {
+        color: gray;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-2
+    {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        align-items: center;
+    }
+    .sec-2 h2{
+        color: gray;
+        font-size: 24px;
+        padding: 0;
+    }
+    .sec-2 h2:hover
+    {
+        color: khaki;
+    }
+    .sec-2 a
+    {
+        display: inline-block;
+        padding: 10px 15px;
+        color: honeydew;
+        background-color: darkmagenta;
+        margin-left: 10px;
+        border-radius: 20px;
+        font-size: 22px;
+    }
+    .sec-2 a:hover{
+        background-color: lightseagreen;
+    }
+    .sec-3
+    {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .sec-3 ul
+    {
+        list-style: none;
+        margin: 20px;
+    }
+    .sec-3 ul li
+    {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        padding: 20px;
+        background-color: #424242;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .sec-3 ul li i
+    {
+        color: white;
+        font-size: 24px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .sec-3 ul li:nth-child(1):hover
+    {
+        background-color: #3b5999;
+    }
+    .sec-3 ul li:nth-child(2):hover
+    {
+        background-color: #55acee;
+    }
+    .sec-3 ul li:nth-child(3):hover
+    {
+        background-color: #dd4b39;
+    }
+    .sec-3 ul li:nth-child(4):hover
+    {
+        background-color: #0077B5;
+    }
+    .sec-3 ul li:nth-child(5):hover
+    {
+        background-color: #ea4ac9;
+    }
+    .sec-4 
+    {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        padding: 30px;
+    }
+    .sec-4 p
+    {
+        color: deeppink;
+        position: relative;
+    }
+    .sec-4 p::after
+    {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        background-color: goldenrod;
+        transition: all .3s;
+    }
+    .sec-4 p:hover::after
+    {
+        width: 100%;
+    }
+    hr
+    {
+        opacity: 0.2;
+    }
+}
+@media(max-width:499px)
+{
+    .sec{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        color: #0000CD;
+        font-family: cursive;
+        background-color: black;
+    }
+    .sec:hover{
+        color: darkmagenta;
+        background-color: #FFFC00;
+        transition: 0.7s;
+    }
+    footer{
+        width: 100%;
+        height:100vh;
+        background-color: #263238;
+    }
+    .sec-1
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 30px 10px;
+        
+    }
+    .about{
+        width: 100%;
+        height: 160px;
+        color: chartreuse;
+        margin-bottom: 20px;
+    } 
+    .about:hover
+    {
+    color: red;
+    
+    }
+    .about h2
+    {
+        font-size: 30px;
+        color:#8E24AA;
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .link1 h2
+    {
+        font-size: 20px;
+        color:#8E24AA;
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .link2 h2
+    {
+        font-size: 20px;
+        color:#8E24AA;
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .link3 h2
+    {
+        font-size: 20px;
+        color:#8E24AA;
+        text-transform: uppercase;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about h2:hover
+    {
+    color: green;
+    transition: 0.5s;
+    }
+    .link1 h2:hover
+    {
+    color: green;
+    transition: 0.5s;
+    }
+    .link2 h2:hover
+    {
+    color: green;
+    transition: 0.5s;
+    }
+    .link3 h2:hover
+    {
+    color: green;
+    transition: 0.5s;
+    }
+    .sec-1 ul
+    {
+    list-style: none;
+    }
+    .sec-1 
+    {
+        padding: 5px;
+    }
+    a
+    {
+        text-decoration: none;
+        color: teal;
+    }
+    a:hover
+    {
+    color: gold;
+    transition: 0.5s;
+    }
+    span
+    {
+        color: blue;
+    }
+    span:hover
+    {
+        color: mediumvioletred;
+    }
+    i
+    {
+        color: gray;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-2
+    {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        align-items: center;
+    }
+    .sec-2 h2{
+        color: gray;
+        font-size: 24px;
+        padding: 0;
+        
+    }
+    .sec-2 h2:hover
+    {
+        color: khaki;
+    }
+    .sec-2 a
+    {
+        display: inline-block;
+        padding: 10px 15px;
+        color: honeydew;
+        background-color: darkmagenta;
+        margin-left: 10px;
+        border-radius: 20px;
+        font-size: 22px;
+    }
+    .sec-2 a:hover{
+        background-color: lightseagreen;
+    }
+    .sec-3
+    {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    .sec-3 ul
+    {
+        list-style: none;
+        margin: 20px;
+    }
+    .sec-3 ul li
+    {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        padding: 20px;
+        background-color: #424242;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .sec-3 ul li i
+    {
+        color: white;
+        font-size: 24px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .sec-3 ul li:nth-child(1):hover
+    {
+        background-color: #3b5999;
+    }
+    .sec-3 ul li:nth-child(2):hover
+    {
+        background-color: #55acee;
+    }
+    .sec-3 ul li:nth-child(3):hover
+    {
+        background-color: #dd4b39;
+    }
+    .sec-3 ul li:nth-child(4):hover
+    {
+        background-color: #0077B5;
+    }
+    .sec-3 ul li:nth-child(5):hover
+    {
+        background-color: #ea4ac9;
+    }
+    .sec-4 
+    {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        padding: 30px;
+    }
+    .sec-4 p
+    {
+        color: deeppink;
+        position: relative;
+    }
+    .sec-4 p::after
+    {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        position: absolute;
+        right: 0;
+        bottom: -10px;
+        background-color: goldenrod;
+        transition: all .3s;
+    }
+    .sec-4 p:hover::after
+    {
+        width: 100%;
+    }
+    hr
+    {
+        opacity: 0.2;
+    }
+}
 
 
 
