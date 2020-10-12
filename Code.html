@@ -34,7 +34,7 @@
   }
   .button{
     float: left;
-    border: 2px solid green;
+    border: 2px solid blue;
     padding: 4.5px;
     border-right: none;
     font-size: 95%;
@@ -48,19 +48,19 @@
   {
       border-top-right-radius: 8px;
       border-bottom-right-radius: 8px;
-      border-right: 2px solid green;
+      border-right: 2px solid blue;
   }
             .active {
                 
-                background-color: #E8F2FF;
+                background-color: green;
+            }
+            
+            .highlightedbutton {
+                background-color: grey;
+                color: red;
                 
             }
             
-            .highlightedutton {
-                
-                background-color: grey;
-                
-            }
 </style>
 <body>
     <section id="header">
@@ -75,14 +75,10 @@
       </div>
     </section>
     <script>
-        $(".button").hover(function() {
-                
+            $(".button").hover(function() {
                 $(this).addClass("highlightedbutton");
-                
             }, function() {
-                
                 $(this).removeClass("highlightedbutton");
-                
             });
     </script>
 </body>
