@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0%;
+}
+
+
+#container{
+    position: relative;
+    margin: auto;
+    width: 40vw;
+    height: 40vw;
+    /* background-color:red ; */
+    background-image: url(img/clock.png);
+    background-size: 100%;
+    /* border: 2px solid black;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#container img{
+    height: 30vw;
+    width: 30vw;
+   opacity: 0.3;
+
+}
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 49.1%;
+    opacity: 0.7;  
+}
+#minute{
+    width: 1.6%;
+    height: 33%;
+    top: 17%;
+    left: 49.2%;
+    opacity: 0.7;  
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top: 10%;
+    left: 49.5%;
+    opacity: 0.7; 
+    
+}
+    </style>
+</head>
+<body>
+    <div>
+    <div id="container">
+        <img src="img/unnamed.png" alt="ganesh g">
+        <div id = "hour"></div>
+        <div id = "minute"></div>
+        <div id = "second"></div>
+    </div>
+</div>
+<script>
+    setInterval(() => {
+    d = new Date();
+    htime = d.getHours();
+    mtime = d.getMinutes();
+    stime = d.getSeconds();
+    hrotation = 30*htime + mtime/2;
+    mrotation = 6*mtime;
+    srotation = 6*stime;
+
+    hour.style.transform = `rotate(${hrotation}deg)`;
+    minute.style.transform = `rotate(${mrotation}deg)`;
+    second.style.transform = `rotate(${srotation}deg)`;
+}, 1000);
+</script>
+</body>
+</html>
