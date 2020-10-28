@@ -94,9 +94,7 @@
         <div class="toggleButton" id="javascript">JavaScript</div>
         
         <div class="toggleButton active" id="output">Output</div>
-    
     </div>
-
 </div>
 <div id="sec2">
 <div id="bodyContainer">
@@ -113,6 +111,7 @@
 
 <script type="text/javascript">
     
+
     function updateOutput() {
         
         $("iframe").contents().find("html").html("<html><head><style type='text/css'>" + $("#cssPanel").val() + "</style></head><body>" + $("#htmlPanel").val() + "</body></html>");
@@ -128,7 +127,7 @@
         
         $(this).removeClass("highlightedButton");
         
-    });
+    }
     
     $(".toggleButton").click(function() {
         
@@ -156,6 +155,7 @@
 
         updateOutput();
     });
-</script>
+</script 
+>
 </body>
 </html>
