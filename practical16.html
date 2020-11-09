@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>jQuery slideUp and slideDown Effect</title>
-<style>
-    .box{
-        width: 400px;
-        background: #f0e68c;
-        border: 1px solid #a29415;
-    }
-    .box-inner{
-        padding: 10px;
-    }
-</style>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script>
-    $(document).ready(function(){
-        $(".slide-up").click(function(){
-            $(".box").slideUp();
-        });
-        $(".slide-down").click(function(){
-            $(".box").slideDown();
-        });
-    });
-</script>
-</head>
-<body>
-    <button type="button" class="slide-up">Slide Up</button>
-    <button type="button" class="slide-down">Slide Down</button>
-    <hr>
-    <div class="box">
-        <div class="box-inner">Lorem ipsum dolor sit amet...</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical-16</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="practical16.css" />
+  </head>
+  
+  <body>
+    <h1>To-Do List</h1>
+    <div class="container">
+        
+      <form >
+        <input type="text" id="input" placeholder="Enter Task" />
+        <button class="add-btn"><i class="fa fa-plus"></i></button>
+      </form>
+    
+      <ul class="todos">
+        
+      </ul>
+    
     </div>
-</body>
+    <script src="practical16.js"></script>
+  </body>
+</html>
