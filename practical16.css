@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('img/ps16\ \(1\).jpg');
+    background-image: linear-gradient(to right, blue , cyan);
     background-size: cover;
     /* background-repeat: no-repeat; */
 }
