@@ -250,7 +250,7 @@ hr
 {
     opacity: 0.2;
 }
-@media (max-width:767px)
+@media (max-width:900px)
 {
     .sec{
         width: 100%;
